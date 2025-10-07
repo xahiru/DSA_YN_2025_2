@@ -1,0 +1,66 @@
+Exercise 1: Node Structure Definition
+Question:
+Define a structure named Node to represent a node in a singly linked list. Each node should store an integer data value and a pointer to the next node.
+
+
+Exercise 2: Insert at the End of a Linked List
+
+Question:
+Implement a function insert(struct Node** head, int data) that inserts a new node with the given data at the end of a singly linked list.
+
+Hint:
+If the list is empty, the new node becomes the head. Otherwise, traverse to the end and attach it.
+
+
+Exercise 3: Delete a Node by Value
+
+Question:
+Write a function delete(struct Node** head, int data) that removes the first occurrence of a node containing data from a singly linked list.
+
+Hint:
+Handle the case where the node to be deleted is the head separately.
+
+
+Exercise 4:
+Traverse and Display the List
+
+Question:
+Write a function traverse(struct Node* head) that prints all the elements of a singly linked list separated by spaces.
+
+Answer (from code):
+
+
+
+Exercise 5: Demonstration in main()
+
+Question:
+In your main() function:
+
+Create an empty list.
+
+Insert the elements 1, 2, 3, 4.
+
+Print the list after insertion.
+
+Delete the element 3.
+
+Print the list after deletion.
+
+
+--additional--
+Exercise 8: Error Handling
+
+Question:
+Modify the delete() function to display "List is empty" if the head pointer is NULL before any deletion attempt.
+
+(edit the original function and add the condition at the start.)
+
+Exercise 9: Function Enhancement
+
+Question:
+Write a new function count(struct Node* head) that returns the total number of nodes in the list.
+
+Exercise 10: Memory Leak Prevention
+
+Question:
+Add a function freeList(struct Node** head) that frees all allocated nodes before the program exits.
