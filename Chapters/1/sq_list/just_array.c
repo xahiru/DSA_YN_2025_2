@@ -140,8 +140,6 @@ int main() {
         printf("4: Locate an element\n");
         printf("5: Insert an element\n");
         printf("6: Delete an element\n");
-        printf("7: Insertion sort\n");
-        printf("8: Bubble sort\n");
         printf("9: Display the list\n");
         printf("0: Exit\n");
         printf("Choose an option (0-9): ");
@@ -173,12 +171,6 @@ int main() {
                 printf("Enter position to delete: ");
                 scanf("%d", &i);
                 deleteElem(i);
-                break;
-            case 7:
-                insertsort();
-                break;
-            case 8:
-                bubblesort();
                 break;
             case 9:
                 display();
