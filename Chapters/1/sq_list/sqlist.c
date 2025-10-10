@@ -75,41 +75,6 @@ void delete(struct sqlist *p, int i) {
     }
 }
 
-// Function to perform insertion sort on the list
-void insertsort(struct sqlist *p) {
-    for (int i = 1; i < p->size; i++) {
-        int key = p->elemlist[i];
-        int j = i - 1;
-        while (j >= 0 && p->elemlist[j] > key) {
-            p->elemlist[j + 1] = p->elemlist[j];
-            j--;
-        }
-        p->elemlist[j + 1] = key;
-    }
-    printf("Sorted list: ");
-    for (int i = 0; i < p->size; i++) {
-        printf("%d -> ", p->elemlist[i]);
-    }
-    printf("\n");
-}
-
-//Function to perform bubble sort on the list
-void bubblesort(struct sqlist *p) {
-    for (int i = 0; i < p->size - 1; i++) {
-        for (int j = 0; j < p->size - i - 1; j++) {
-            if (p->elemlist[j] > p->elemlist[j + 1]) {
-                int temp = p->elemlist[j];
-                p->elemlist[j] = p->elemlist[j + 1];
-                p->elemlist[j + 1] = temp;
-            }
-        }
-    }
-    printf("Sorted list: ");
-    for (int i = 0; i < p->size; i++) {
-        printf("%d -> ", p->elemlist[i]);
-    }
-    printf("\n");
-}
 
 // Function to display the list
 void display(struct sqlist *p) {
@@ -177,9 +142,6 @@ int main() {
                 printf("Enter position to delete: ");
                 scanf("%d", &i);
                 delete(&l, i);
-                break;
-            case 7:
-                insertsort(&l);
                 break;
             case 8:
                 display(&l);
