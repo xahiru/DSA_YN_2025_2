@@ -21,6 +21,14 @@ Follow instructions here:
 https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
 
 
+# Checking if gcc is installed
+Open Command Prompt and type:
+
+```bash
+gcc --version
+```
+If gcc is installed, it will display the version information. If not, you will see an error message indicating that the command is not recognized.
+
 
 # How to compile and run C code
 
