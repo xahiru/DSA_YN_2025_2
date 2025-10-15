@@ -15,6 +15,11 @@ https://www.onlinegdb.com/online_c_compiler
 
 https://www.programiz.com/c-programming/online-compiler/
 
+# Adding gcc to PATH in Windows
+
+Follow instructions here:
+https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
+
 
 
 # How to compile and run C code
