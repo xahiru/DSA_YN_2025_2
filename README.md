@@ -3,6 +3,9 @@
 
 https://code.visualstudio.com/docs/cpp/config-mingw
 
+# VS Code C/C++ extension
+https://code.visualstudio.com/docs/languages/cpp
+
 
 # Dev C++
 
