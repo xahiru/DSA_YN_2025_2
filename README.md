@@ -3,6 +3,11 @@
 
 https://code.visualstudio.com/docs/cpp/config-mingw
 
+# Installing VS Code
+
+https://code.visualstudio.com/download
+
+
 # VS Code C/C++ extension
 https://code.visualstudio.com/docs/languages/cpp
 
