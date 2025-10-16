@@ -17,7 +17,7 @@ https://code.visualstudio.com/docs/languages/cpp
 https://www.bloodshed.net/
 
 
-# Online compilers
+# Online compilers (not recommended)
 
 https://www.onlinegdb.com/online_c_compiler
 
