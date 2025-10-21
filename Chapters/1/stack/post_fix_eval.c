@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>   // for atoi()
+#include <string.h>   // for strtok()
+#include <ctype.h> 
 #define STACK_INIT_SIZE 100
 #define STACK_INCREMENT 10
 #define OK 1
@@ -67,3 +70,10 @@ int evaluatePostfix(char expr[]) {
     PopInt(&S, &res);
     return res;
 }
+
+int main() {
+    char expr[] = "5 1 2 + 4 * + 3 -";
+    printf("Result: %d\n", evaluatePostfix(expr));
+    return 0;
+}
+
