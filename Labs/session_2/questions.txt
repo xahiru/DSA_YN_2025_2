@@ -1,0 +1,121 @@
+
+Practical Data Structure:
+
+Its the continuations of the exercises in the previous week. We start with question 4
+
+4. Write a program in C to create and display a Singly Linked List.
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 5
+Input data for node 2 : 6
+Input data for node 3 : 7
+Expected Output :
+
+ Data entered in the list :                                                                                   
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7 
+
+
+5. Write a program in C to create a singly linked list of n nodes and display it in reverse order.
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 5
+Input data for node 2 : 6
+Input data for node 3 : 7
+Expected Output :
+
+ Data entered in the list are :                                                                               
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7                                                                                                     
+                                                                                                              
+ The list in reverse are :                                                                                    
+ Data = 7                                                                                                     
+ Data = 6                                                                                                     
+ Data = 5 
+
+
+6. Write a program in C to insert a new node at the beginning of a Singly Linked List.
+Test Data and Expected Output :
+
+ Input the number of nodes : 3                                                                                
+ Input data for node 1 : 5                                                                                    
+ Input data for node 2 : 6                                                                                    
+ Input data for node 3 : 7                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7                                                                                                     
+                                                                                                              
+ Input data to insert at the beginning of the list : 4                                                        
+                                                                                                              
+ Data after inserted in the list are :                                                                        
+ Data = 4                                                                                                     
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7  
+
+
+
+7. Write a program in C to insert a new node at the end of a Singly Linked List.
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+ Input data for node 1 : 5                                                                                    
+ Input data for node 2 : 6                                                                                    
+ Input data for node 3 : 7                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7                                                                                                     
+                                                                                                              
+ Input data to insert at the end of the list : 8                                                              
+                                                                                                              
+ Data, after inserted in the list are :                                                                       
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7                                                                                                     
+ Data = 8  
+
+
+8. Write a program in C to search for an existing element in a singly linked list.
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+                                                                                                              
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data = 2                                                                                                     
+ Data = 5                                                                                                     
+ Data = 8                                                                                                     
+                                                                                                              
+ Input the element to be searched : 5                                                                         
+ Element found at node 2
+
+9. Create and display a doubly linked list.
+Test Data and Expected Output :
+
+Doubly Linked List : Create and display a doubly linked list :
+-------------------------------------------------------------
+Input the number of nodes : 3
+ Input data for node 1 : 1
+ Input data for node 2 : 2
+ Input data for node 3 : 4
+
+
+ Data entered on the list are :
+ node 1 : 1
+ node 2 : 2
+ node 3 : 4
+
+
+
+
+ 10. Convert the program in question 3 to use a singly linked list.
+
