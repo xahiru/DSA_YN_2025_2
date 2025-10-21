@@ -64,6 +64,29 @@ void reverseString(char str[]) {
     }
 }
 
+int isBalanced(char expr[]) {
+    SqStack S;
+    InitStack(&S);
+
+    char e;
+    for (int i = 0; expr[i] != '\0'; i++) {
+        char c = expr[i];
+
+        if (c == '(' || c == '{' || c == '[') {
+            Push(&S, c);
+        } else if (c == ')' || c == '}' || c == ']') {
+            if (StackEmpty(S)) return 0;
+            Pop(&S, &e);
+            if ((c == ')' && e != '(') ||
+                (c == '}' && e != '{') ||
+                (c == ']' && e != '['))
+                return 0;
+        }
+    }
+    return StackEmpty(S);
+}
+
+
 int main() {
     char str[] = "hello";
     printf("Original: %s\n", str);
