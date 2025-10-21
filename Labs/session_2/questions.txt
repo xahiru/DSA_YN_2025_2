@@ -1,5 +1,5 @@
 
-Practical Data Structure:
+Practical Data Structure (linked list practice):
 
 Its the continuations of the exercises in the previous week. We start with question 4
 
