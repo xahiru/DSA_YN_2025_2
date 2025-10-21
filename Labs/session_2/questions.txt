@@ -117,7 +117,7 @@ Input the number of nodes : 3
 
 
 
- 10. use a singly linked list to store the following data.
+ 10. Use a singly linked list to store the following data.
 Student ID, Student name, Age and add the following sample data 
 20240001, Micheal, 22 
 20240003, Ismeal, 18
