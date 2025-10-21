@@ -48,3 +48,18 @@ int Pop(SqStack *S, SElemType *e) {
 int StackEmpty(SqStack S) {
     return S.top == S.base;
 }
+
+
+void reverseString(char str[]) {
+    SqStack S;
+    InitStack(&S);
+
+    int len = strlen(str);
+    for (int i = 0; i < len; i++) {
+        Push(&S, str[i]);
+    }
+
+    for (int i = 0; i < len; i++) {
+        Pop(&S, &str[i]);
+    }
+}
