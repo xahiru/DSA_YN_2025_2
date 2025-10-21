@@ -92,6 +92,11 @@ int main() {
     printf("Original: %s\n", str);
     reverseString(str);
     printf("Reversed: %s\n", str);
+
+
+    char expr[] = "{[()]}";
+    printf("%s is %s\n", expr, isBalanced(expr) ? "balanced" : "not balanced");
+    
     return 0;
 }
 
