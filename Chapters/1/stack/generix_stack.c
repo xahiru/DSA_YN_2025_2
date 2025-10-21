@@ -63,3 +63,12 @@ void reverseString(char str[]) {
         Pop(&S, &str[i]);
     }
 }
+
+int main() {
+    char str[] = "hello";
+    printf("Original: %s\n", str);
+    reverseString(str);
+    printf("Reversed: %s\n", str);
+    return 0;
+}
+
