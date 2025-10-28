@@ -1,0 +1,17 @@
+1. Write a C program to implement a stack using an array with the following operations:
+
+    push() – to insert an element into the stack
+
+    pop() – to remove an element from the stack
+
+    peek() – to find the top element of the stack
+
+    isEmpty() – to check whether the stack is empty or not
+
+    Test Data / Expected Output:
+        Create a stack object:
+        Check if the stack is empty: 1
+        Insert some elements onto the stack:
+        Stack elements: 4 5 6 7
+        Remove an element from the stack! 4
+        Stack elements: 5 6 7
