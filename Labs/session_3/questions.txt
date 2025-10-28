@@ -27,10 +27,11 @@
     int stacksize;
     } SqStack;
 
-    Create a stack object:
-    Insert some elements onto the stack:
-    Stack elements: 4 5 6 7
-    Average value of stack elements: 5.50
+    Test Data / Expected Output:
+        Create a stack object:
+        Insert some elements onto the stack:
+        Stack elements: 4 5 6 7
+        Average value of stack elements: 5.50
 
 
 3. Write a C program to implement a stack using an array and structure, and remove any duplicate elements from the stack.
@@ -42,11 +43,28 @@
     int stacksize;
     } SqStack;
 
-    Create a stack object:
-    Insert elements onto the stack:
-    Stack elements: 4 5 6 4 7 5
-    Remove duplicate elements:
-    Stack elements after removing duplicates: 4 5 6 7
+    Test Data / Expected Output:
+        Create a stack object:
+        Insert elements onto the stack:
+        Stack elements: 4 5 6 4 7 5
+        Remove duplicate elements:
+        Stack elements after removing duplicates: 4 5 6 7
+
+4. Write a C program to implement a stack using a linked list with the following operations:
+
+    push() – to insert (push) an element onto the stack
+
+    pop() – to remove (pop) an element from the stack
+
+    display() – to display all stack elements
+
+    Test Data / Expected Output:
+        Input some elements onto the stack (using linked list):
+        Stack elements are: 1 3 5 6
+        Remove 2 elements from the stack:
+        Stack elements are: 5 6
+        Input 2 more elements:
+        Stack elements are: 9 8 5 6
 
 
 
