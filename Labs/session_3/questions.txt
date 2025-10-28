@@ -15,3 +15,20 @@
         Stack elements: 4 5 6 7
         Remove an element from the stack! 4
         Stack elements: 5 6 7
+
+
+2. Write a C program to implement a stack using an array and structure, and calculate the average value of all elements currently stored in the stack.
+
+    Use the following structure definition:
+    
+    typedef struct {
+    SElemType *base;
+    SElemType *top;
+    int stacksize;
+    } SqStack;
+
+    Create a stack object:
+    Insert some elements onto the stack:
+    Stack elements: 4 5 6 7
+    Average value of stack elements: 5.50
+
