@@ -32,3 +32,21 @@
     Stack elements: 4 5 6 7
     Average value of stack elements: 5.50
 
+
+3. Write a C program to implement a stack using an array and structure, and remove any duplicate elements from the stack.
+
+    Use the following structure definition:
+    typedef struct {
+    SElemType *base;
+    SElemType *top;
+    int stacksize;
+    } SqStack;
+
+    Create a stack object:
+    Insert elements onto the stack:
+    Stack elements: 4 5 6 4 7 5
+    Remove duplicate elements:
+    Stack elements after removing duplicates: 4 5 6 7
+
+
+
