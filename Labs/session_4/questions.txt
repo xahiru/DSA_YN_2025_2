@@ -59,3 +59,21 @@ set a min variable initalize with a pop
 while stack is not empty pop
 and compare the value with min
 if its smaller then replace the min with new value
+
+
+4. Write a C program to find the maximum element in a stack.
+Expected Output:
+
+Current stack elements:
+5 2 1 6 8 
+Maximum element: 8
+
+After removing two elements:
+Current stack elements:
+5 2 1 
+Maximum element: 5
+
+After adding one element:
+Current stack elements:
+5 2 1 10 
+Maximum element: 10
