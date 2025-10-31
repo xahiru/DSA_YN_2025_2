@@ -36,3 +36,26 @@ The next larger elements are:
 1 --> 4
 4 --> -1
 9 --> -1
+
+
+3. Write a C program to find the minimum element in a stack.
+Expected Output:
+
+Current stack elements:
+9 2 4 2 4 
+Minimum element: 2
+
+After removing two elements:
+Current stack elements:
+9 2 4 
+Minimum element: 2
+
+After adding one element:
+Current stack elements:
+9 2 4 1 
+Minimum element: 1
+
+set a min variable initalize with a pop
+while stack is not empty pop
+and compare the value with min
+if its smaller then replace the min with new value
