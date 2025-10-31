@@ -77,3 +77,16 @@ After adding one element:
 Current stack elements:
 5 2 1 10 
 Maximum element: 10
+
+5. Write a C program to calculate the average value of the stack elements.
+Expected Output:
+
+Elements of the stack:
+6 4 2 5 3 1 
+Average of the said stack values: 3.50
+
+Popped value: 6
+
+Elements of the stack:
+4 2 5 3 1 
+Average of the said stack values: 3.00
