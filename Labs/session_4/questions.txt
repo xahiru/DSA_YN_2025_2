@@ -1,3 +1,6 @@
+Practical Data Structure:
+
+
 1. Write a C program that accepts a string and reverse it using a stack.
 Expected Output:
 
@@ -78,7 +81,7 @@ Current stack elements:
 5 2 1 10 
 Maximum element: 10
 
-5. Write a C program to calculate the average value of the stack elements.
+4. Write a C program to calculate the average value of the stack elements.
 Expected Output:
 
 Elements of the stack:
@@ -89,4 +92,35 @@ Popped value: 6
 
 Elements of the stack:
 4 2 5 3 1 
-Average of the said stack values: 3.00
+Average of the said stack values: 3.001
+
+5. Write a C program to implement a queue using an array. Programs should contain functions for inserting elements into the queue, displaying queue elements, and checking whether the queue is empty or not.
+
+Expected Output:
+
+Initialize a queue!
+Check the queue is empty or not? Yes
+
+Insert some elements into the queue:
+Queue elements are: 1 2 3 
+
+Insert another element into the queue:
+Queue elements are: 1 2 3 4 
+
+Check the queue is empty or not? No
+
+
+6. Write a C program to implement a queue using a linked list. Programs should contain functions for inserting elements into the queue, displaying queue elements, and checking whether the queue is empty or not.
+
+Expected Output:
+
+Initialize a queue!
+Check the queue is empty or not? Yes
+
+Insert some elements into the queue:
+1 2 3 
+
+Insert another element into the queue:
+1 2 3 4 
+
+Check the queue is empty or not? No
