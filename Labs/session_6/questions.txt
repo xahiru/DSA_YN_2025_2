@@ -1,0 +1,131 @@
+1. Write a program in C to input a string and print it.
+
+Test Data :
+Input the string : Welcome, w3resource
+
+Expected Output :
+
+The string you entered is : Welcome, w3resource
+
+2. Write a program in C to find the length of a string without using library functions.
+
+Test Data :
+Input the string : w3resource.com
+
+Expected Output :
+
+Length of the string is : 15 
+
+
+3. Write a program in C to separate individual characters from a string.
+
+Test Data :
+Input the string : w3resource.com
+
+Expected Output :
+
+The characters of the string are : 
+w  3  r  e  s  o  u  r  c  e  .  c  o  m 
+
+
+4. Write a program in C to print individual characters of a string in reverse order.
+
+Test Data :
+Input the string : w3resource.com
+
+Expected Output :
+
+The characters of the string in reverse are :
+m  o  c  .  e  c  r  u  o  s  e  r  3  w 
+
+
+5. Write a program in C to count the total number of words in a string.
+
+Test Data :
+Input the string : This is w3resource.com
+
+Expected Output :
+
+Total number of words in the string is : 3 
+
+6. Write a program in C to compare two strings without using string library functions.
+
+Test Data :
+Check the length of two strings:
+--------------------------------
+Input the 1st string : aabbcc
+Input the 2nd string : abcdef
+String1: aabbcc
+String2: abcdef
+Expected Output : Strings are not equal.
+
+Check the length of two strings:
+--------------------------------
+Input the 1st string : aabbcc
+Input the 2nd string : aabbcc
+String1: aabbcc
+String2: aabbcc
+Expected Output : Strings are equal.
+
+
+7. Write a program in C to count the total number of alphabets, digits and special characters in a string.
+
+Test Data :
+Input the string : Welcome to w3resource.com
+
+Expected Output :
+
+Number of Alphabets in the string is : 21 
+Number of Digits in the string is : 1 
+Number of Special characters in the string is : 4
+
+11. Write a C program to sort a string array in ascending order.
+
+Test Data :
+Input the string : w3resource
+
+Expected Output :
+
+After sorting the string appears like : 
+3ceeorrsuw 
+
+
+14. Write a C program to check whether a substring is present in a string.
+
+Test Data :
+Input the string : This is a test string.
+Input the substring to be search : search
+
+Expected Output :
+
+The substring is not exists in the string.
+
+39. Write a C program to find the longest palindromic substring from a given string. Return the substring.
+
+Expected Output:
+
+Original string: abcdcsdfabbccb
+Longest Palindromic Substring from the said string? bccb
+
+
+40x.
+Write a C pogram to dispaly all the substrings from a given string
+
+Expected Output:
+
+Original string: abcdc
+a
+ab
+abc
+abcd
+abcdc 
+
+40a.
+Write a C program to get LPS array from a given spring
+
+Output:
+LPS array for the string "ababaca":
+0 0 1 2 3 0 1
+
+41x.
+Write a C program to find a substring using KMP algorithm
