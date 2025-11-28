@@ -3,23 +3,23 @@
 #define ADT_STRING_H
 
 typedef struct {
-    char *data;   // pointer to dynamically allocated array of characters
-    int length;   // length of the string
+    char *data;   
+    int length;
 } String;
 
-// Create an empty string
+// Basic operations
 String CreateEmptyString();
-
-// Return length of string
 int StringLength(String S);
-
-// Concatenate S1 and S2 → return new String
 String Concatenate(String S1, String S2);
 
-// Utility: Create a String from C-string literal
-String CreateFromChars(const char *chars);
+// New Operations
+String Substring(String S, int start, int length);
+char CharAt(String S, int position);
+int IsEmpty(String S);
+int Compare(String S1, String S2);
 
-// Free memory allocated for a String
+// Helpers
+String CreateFromChars(const char *chars);
 void DestroyString(String *S);
 
 #endif
