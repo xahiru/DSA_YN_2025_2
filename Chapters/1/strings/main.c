@@ -71,3 +71,10 @@ int main() {
 
     return 0;
 }
+
+// A = Hello
+// B = World!
+// Concat(A,B) = HelloWorld!
+// Substring(C,6,3) = Wor
+// Compare(A,B) = -15
+
