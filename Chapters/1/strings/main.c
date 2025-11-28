@@ -2,18 +2,29 @@
 #include "adt_string.h"
 
 int main() {
-    String S1 = CreateFromChars("Hello");
-    String S2 = CreateFromChars(" World");
+    String S = CreateFromChars("ComputerScience");
 
-    printf("S1: %s (len=%d)\n", S1.data, StringLength(S1));
-    printf("S2: %s (len=%d)\n", S2.data, StringLength(S2));
+    printf("Original: %s\n", S.data);
 
-    String S3 = Concatenate(S1, S2);
-    printf("Concatenated: %s (len=%d)\n", S3.data, StringLength(S3));
+    // Substring
+    String sub = Substring(S, 4, 6);
+    printf("Substring(4,6): %s\n", sub.data);
 
-    DestroyString(&S1);
-    DestroyString(&S2);
-    DestroyString(&S3);
+    // CharAt
+    printf("CharAt(3): %c\n", CharAt(S, 3));
+
+    // IsEmpty
+    printf("IsEmpty: %d\n", IsEmpty(S));
+
+    // Compare
+    String A = CreateFromChars("Apple");
+    String B = CreateFromChars("Banana");
+    printf("Compare(Apple, Banana) = %d\n", Compare(A, B));
+
+    DestroyString(&S);
+    DestroyString(&sub);
+    DestroyString(&A);
+    DestroyString(&B);
 
     return 0;
 }
