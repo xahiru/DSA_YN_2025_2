@@ -72,6 +72,7 @@ int main() {
     return 0;
 }
 
+// Expected Output:
 // A = Hello
 // B = World!
 // Concat(A,B) = HelloWorld!
